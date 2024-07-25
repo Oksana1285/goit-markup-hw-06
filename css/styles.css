@@ -378,6 +378,10 @@ input {
   margin-bottom: 8px;
 }
 
+.advantages-item-icon {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .advantages-list {
     gap: 24px;
