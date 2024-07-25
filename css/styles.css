@@ -393,6 +393,10 @@ input {
   .advantages-subtitle {
     text-align: left;
   }
+
+  .icons-advantages {
+    display: nonr;
+  }
 }
 
 @media screen and (min-width: 1158px) {
