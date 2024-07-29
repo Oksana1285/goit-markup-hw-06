@@ -382,10 +382,6 @@ input {
     margin-right: 76px;
   }
 
-  .logo {
-    margin: 24px 76px 24px;
-  }
-
   .contacts-list {
     flex-direction: row;
     align-items: center;
