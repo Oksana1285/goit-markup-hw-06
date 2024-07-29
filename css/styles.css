@@ -753,6 +753,7 @@ input {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 288px;
+  margin-bottom: 72px;
 }
 
 .footer-social {
