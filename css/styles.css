@@ -580,7 +580,7 @@ input {
   }
 
   .icons-advantages {
-    display: nonr;
+    display: none;
   }
 }
 
