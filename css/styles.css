@@ -185,6 +185,7 @@ input {
 
 .mob-menu-container {
   position: relative;
+  margin: 0px;
   padding: 72px 24px 40px 16px;
   display: flex;
   flex-direction: column;
@@ -259,6 +260,7 @@ input {
 
 .mob-menu-contacts-list {
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
   gap: 24px;
 }
@@ -283,6 +285,9 @@ input {
 }
 
 .mob-menu-icon-list {
+  display: flex;
+  gap: 24px;
+  margin: 0px;
 }
 
 .mob-menu-icon-link {
@@ -625,7 +630,8 @@ input {
 /* ------OUR TEAM ------*/
 .team {
   background: #f4f4fd;
-  padding: 96px 28px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .team-title {
@@ -643,6 +649,7 @@ input {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 72px;
 }
 
@@ -866,7 +873,6 @@ input {
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 72px;
 }
 
 .footer-logo {
@@ -892,7 +898,7 @@ input {
 
 .footer-social {
   align-items: center;
-  margin: 0px;
+  margin-bottom: 72px;
 }
 
 .footer-icon-list {
@@ -1078,6 +1084,11 @@ input {
 
   .footer-text {
     max-width: 264px;
+    margin-bottom: 0px;
+  }
+
+  .footer-social {
+    margin-bottom: 0px;
   }
 
   .footer-modal-field {
